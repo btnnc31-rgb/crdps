@@ -1,6 +1,6 @@
 name: Windows - Litemanager
 on:
-   worldview_dispatch:
+  workflow_dispatch:  # Correct event trigger for a manual workflow
 
 jobs:
   build:
